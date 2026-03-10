@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Sample books data — expand this array or load from JSON/API in production
   const books = [
-    { id: 1, title: "Eleopatra and Her ASP", price: 5500, img: "../Books Images/book1.jpeg", category: "Secondary" },
+    { id: 1, title: "Eleopatra and Her ASP", price: 5500, img: "./Books Images/book1.jpeg", category: "Secondary" },
     { id: 2, title: "Claws of The Macra", price: 5000, img: "../Books Images/book2.jpeg", category: "Fiction" },
     { id: 3, title: "Dear Olly", price: 5500, img: "../Books Images/book3.jpeg", category: "Elementary" },
     { id: 4, title: "A Most Improper Magick", price: 7000, img: "../Books Images/book4.jpeg", category: "Fiction" },
@@ -552,4 +552,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderBooks();
   renderReadyBags();
 });
+
 
