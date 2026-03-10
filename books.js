@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'rb1',
       name: 'Early Explorer Pack',
       price: 25000,
-      img: '../Books Images/book1.jpeg',
+      img: 'Books Images/book1.jpeg',
       books: [7, 9, 11, 17, 18],
       description: "A wonderful collection for preschoolers to start their reading journey."
     },
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'rb2',
       name: 'Elementary Adventure Kit',
       price: 30000,
-      img: '../Books Images/book2.jpeg',
+      img: 'Books Images/book2.jpeg',
       books: [3, 5, 6, 15, 21],
       description: "Exciting stories for elementary school readers to fuel their imagination."
     },
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'rb3',
       name: 'Fiction Fanatics Bundle',
       price: 35000,
-      img: '../Books Images/book3.jpeg',
+      img: 'Books Images/book3.jpeg',
       books: [2, 4, 8, 12, 19],
       description: "A bundle of captivating fiction for young and avid readers."
     },
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'rb4',
       name: 'Non-Fiction Discovery Crate',
       price: 28000,
-      img: '../Books Images/book4.jpeg',
+      img: 'Books Images/book4.jpeg',
       books: [13, 22, 25, 26, 29],
       description: "Explore the world with this collection of informative and engaging non-fiction books."
     },
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'rb5',
       name: 'Secondary School Starter Pack',
       price: 20000,
-      img: '../Books Images/book5.jpeg',
+      img: 'Books Images/book5.jpeg',
       books: [1, 41],
       description: "A curated selection for secondary school students to enhance their literary skills."
     }
@@ -552,6 +552,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderBooks();
   renderReadyBags();
 });
+
 
 
 
